@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    background-color: #00203FFF;
+    color: #ADEFD1FF;
+    height: 5rem;
+    line-height: 5rem; 
+}
+
+.choice {
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    transition: opacity 0.3s ease, filter 0.3s ease;
+    opacity: 1;
+}
+
+.choice:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    filter: drop-shadow(0 0 5px rgb(0, 0, 0));
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    height: 200px;
+    margin: 3rem;
+    gap: 5rem; 
+    position: relative;
+}
+
+.score:nth-child(2) { 
+    margin-left: 50px; 
+}
+
+.msg-container {
+    margin-top: 5rem;
+    position: relative;
+    left: 50px; 
+}
+
+#user-score, #comp-score {
+    font-size: 4rem;
+}
+  
+#msg {
+    background-color: #081b31;
+    color: #fff;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+body {
+    background-image: url('Background RockPaperScissors.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1, p, #msg {
+    color: #fff; 
+}
